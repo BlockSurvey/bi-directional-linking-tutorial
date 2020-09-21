@@ -305,7 +305,7 @@ export class HomeComponent {
     if (inputBox == "oldTask") {
       this.addToOldList();
     } else {
-      this.value = value.sentence;
+      this.value = this.newTask;
       this.newTask = this.value;
       this.addToNewList();
     }
