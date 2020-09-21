@@ -1,0 +1,50 @@
+.text {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
+  .calculator_textbox {
+    font-size: 14px;
+    border: 1px solid #dedede;
+    padding: 5px;
+    outline: 0;
+    box-shadow: none;
+    border-radius: 0;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  .calculator_textbox:focus {
+    outline: none;
+    border: 2px solid rgba(229, 96, 115, 0.5);
+  }
+  
+  .dropdown-toggle::after {
+    margin-left: 85%;
+  }
+  
+  .calculator_option:hover {
+    background-color: rgba(229, 96, 115, 0.2);
+  }
+  
+  .item_highlight {
+    background-color: rgba(229, 96, 115, 0.2);
+  }
+  
+  .dropdown-toggle::after {
+    display: none;
+  }
+  
+  .button {
+    background: #e56073;
+    border-radius: 0;
+    color: white;
+  }
+  
+  .list-todo {
+    border: 2px solid #e56073;
+  }
+  
+  h4 {
+    margin-top: 30px;
+    text-align: center;
+  }

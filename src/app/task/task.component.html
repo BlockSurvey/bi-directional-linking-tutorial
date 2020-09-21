@@ -1,0 +1,64 @@
+<!-- List of Matched Search Results for Bidirectional Linking -->
+
+<div *ngFor="let item of newTaskObject" class="row mt-1">
+    <div class="col-3 d-none col-md-3 d-md-block"></div>
+
+    <div class="col-12 col-md-10">
+      <div>
+        <p><span class="font-weight-bold">Task :</span> {{ item.task }}</p>
+
+        <!-- Linked Todo Tasks -->
+
+        <p class="font-weight-bold">Linked Task</p>
+        <div *ngFor="let list of item.linkedList" style="display: flex">
+          <div class="col-12 col-md-11 list-todo">
+            <p>
+              {{ list.sentence }}
+            </p>
+          </div>
+          <!-- Unlink Button -->
+          <div
+            style="
+              margin: 5px;
+              border: 2px solid lightseagreen;
+              padding: 5px;
+              height: 35px;
+              cursor: pointer;
+            "
+            (click)="unlinkNotes(list)"
+          >
+            Unlink
+          </div>
+        </div>
+
+        <!-- List of Unlinked Task -->
+        <p class="font-weight-bold">Unlinked Task</p>
+        <div *ngFor="let list of item.unlinkedList" style="display: flex">
+          <div class="col-12 col-md-11 list-todo">
+            <p>
+              {{ list.sentence }}
+            </p>
+          </div>
+          <!-- Link Button -->
+          <div
+            style="
+              margin: 5px;
+              border: 2px solid lightseagreen;
+              padding: 5px;
+              height: 35px;
+              cursor: pointer;
+            "
+            (click)="linkNotes(list, item.task)"
+          >
+            Link
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-3 d-none col-md-3 d-md-block"></div>
+  </div>
+
+  <!-- Save Results to Local Storage -->
+  <div>
+      <button (click)="save()" class="btn btn-primary">Save</button>        
+  </div>
