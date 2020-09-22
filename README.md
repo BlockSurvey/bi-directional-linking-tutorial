@@ -29,7 +29,15 @@ In this tutorial, We are going to use the Fuzzy Search / Fuzzy Sort npm package 
 
 ![](https://miro.medium.com/max/753/1*2K-x6E1flPyTM1aJvyLIjg.png)
 
-## Searching the Todo
+## Linking & Unlinking the Todo from the list
 
-![](https://miro.medium.com/max/753/1*2K-x6E1flPyTM1aJvyLIjg.png)
+![](https://miro.medium.com/max/753/1*a1ZtIelLo6Fk5u1nKcoS_A.png)                  
+
+
+![](https://miro.medium.com/max/753/1*hP0ehaXH0YiPKXcQGdv0Cw.png)  
+
+## Search for Linked Todo from the list
+
+![](https://miro.medium.com/max/623/1*rYGArChd-2TM4fstMZ8spQ.png) 
+
 
