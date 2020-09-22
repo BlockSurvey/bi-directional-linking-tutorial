@@ -1,27 +1,14 @@
-# BidirectionalLinking
+# Bi-directional-linking-tutorial
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.28.
+![](https://miro.medium.com/max/875/1*RnHbOL23aNby9MhRPJpGIA.png)
 
-## Development server
+Many of us have come across a range of note-taking apps that help us record our day-to-day activities or work-related items. Have you ever wondered what makes these apps popular?
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Numerous users are currently embracing note-taking applications because of features in the apps, such as linking different notes together to avoid data duplication. Another great feature is that the note-taking apps will automatically check all of our previous notes to find out if we have made any related notes already. All of these features help the user retain several notes or documents in a sorted way.
 
-## Code scaffolding
+Now, Bidirectional Linking is one of the features of these note-taking applications that allows us to connect separate notes together under one category. This makes it easy for the user to check the category, and all the notes linked under it will be shown.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Further Reading: [How to build a To-Do app using Bi-Directional linking in Angular?](https://medium.com/blocksurvey/tutorial-how-to-build-a-to-do-using-bi-directional-linking-in-angular-c8db945619e8)
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Note: 
+In this tutorial, We are going to use the Fuzzy Search / Fuzzy Sort npm package for searching and displaying the results. Users can use any searching method, but it should return results faster. We are using Angular in this tutorial to implement the same.
