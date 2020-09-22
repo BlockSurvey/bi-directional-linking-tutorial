@@ -12,3 +12,24 @@ Further Reading: [How to build a To-Do app using Bi-Directional linking in Angul
 
 ## Note: 
 In this tutorial, We are going to use the Fuzzy Search / Fuzzy Sort npm package for searching and displaying the results. Users can use any searching method, but it should return results faster. We are using Angular in this tutorial to implement the same.
+
+
+## Scrrenshots of the Todo App with Bi-directional Linking:
+
+
+## Add Todo to the List
+
+![](https://miro.medium.com/max/540/1*jiHk-MZqfVRTuLkNzmldrA.png)
+
+## Manual Linking of the Todo
+
+![](https://miro.medium.com/max/464/1*lio8Y-wGDnen5o9ALx1R7Q.png)
+
+## Searching the Todo
+
+![](https://miro.medium.com/max/753/1*2K-x6E1flPyTM1aJvyLIjg.png)
+
+## Searching the Todo
+
+![](https://miro.medium.com/max/753/1*2K-x6E1flPyTM1aJvyLIjg.png)
+
