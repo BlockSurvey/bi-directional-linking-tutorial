@@ -45,8 +45,6 @@ In this tutorial, We are going to use the Fuzzy Search / Fuzzy Sort npm package 
 
 Using the Bidirectional Linking different notes can be connected together under one group. This makes it easy for a user to check the category, and all the notes linked under it will be shown. This, in turn, helps the user to build notes easily and also prevents data redundancy issues.
 
-Thanks for reading the tutorial. Requesting you to share your thoughts in the comments below!
-
 ## References
 
 [Fuzzy-Search](https://www.npmjs.com/package/fuzzy-search)
